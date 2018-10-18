@@ -9,7 +9,7 @@ volumes = {
     ]
 }
 
-## python 2.7 items would be iteritems for dict instead of items
+## python 2.7 items would be iteritems for dict instead of items ( python3 )
 for key, values in volumes.items():
     for value in values:
         if value[1] == "attached":
